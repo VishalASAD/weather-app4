@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.app-title {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#cityInput {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4facfe;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00f2fe;
+}
+
+.weather-details {
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.weather-details h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.weather-info {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.icon img {
+    width: 80px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Add a background image */
+    background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Optional overlay for better text contrast */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
